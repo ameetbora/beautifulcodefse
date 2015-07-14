@@ -4,6 +4,10 @@
 ##             called input.txt. It will parse through the list and add the
 ##             number into a growing list variable and calculate the median.
 ##             This will continue until there are no numbers to parse.
+##             This code will look for the file input.txt
+##             Make sure the file exist in the same directory as this script.
+##             To increase the numbers, add your values into the file.
+##             Numbers in input.txt are delimited by ','. 
 """This part will first sort the list and then calculate the median of the list"""
 def median(list):
     lst = sorted(list)
